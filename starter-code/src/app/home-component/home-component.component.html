@@ -1,0 +1,17 @@
+<h2> Home-Page USER </h2>
+
+<div class="card">
+
+
+  <div *ngFor="let oneMovie of movieTruc.movies">
+    <div class="ok">
+    <h3>  {{oneMovie.title}}</h3>
+    <p> Room Number : {{oneMovie.id}}</p>
+    <img src="{{oneMovie.poster}}">
+  <br>
+<a  class="btn" [routerLink]="['/movie', oneMovie.id]"> See Details</a>
+</div>
+
+  </div>
+
+</div>

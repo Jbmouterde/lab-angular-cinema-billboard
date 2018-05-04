@@ -1,0 +1,16 @@
+<h2> My Movie Component</h2>
+
+
+<div class="uo">
+<h3> {{movieInfo?.title}}</h3>
+
+    <p> Room : {{movieInfo?.id}}</p>
+    <img src="{{movieInfo.poster}}">
+
+    <div class="description">
+        <p> Synopsis :{{movieInfo?.synopsis}} </p>
+    </div>
+<br>
+
+<button  class="btn" (click)="confirm()"> Go Back </button>
+</div>

@@ -1,0 +1,30 @@
+img {
+  width: 250px;
+  height : 400px;
+
+}
+h2{
+  text-align: center
+}
+.card{
+  border : 1px solid red 
+}
+.ok {
+  border : 1px solid black;
+  width: 250px;
+  float : left ;
+  margin-left : 50px;
+  text-align : center; 
+  background-color : lightcyan;
+
+}
+
+.btn {
+  height: 60px;
+  border-radius : 5px;
+  color : darkgray;
+  background-color : blue;
+  text-decoration: none; 
+  text-decoration-style: none
+
+}
